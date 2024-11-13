@@ -1,25 +1,38 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
 .title{
     color: purple;
     text-align: center;
     font-size: xxx-large;
     font-family: 'Times New Roman', Times, serif;
-}
-.first-link{
-    padding-bottom: 20px;
-    padding-top: 30px;
-    margin-left: 580px;
-}
-.second-link{
-    margin-left:580px
+    margin: 40px;
+    padding: 0px;
 }
 .lasagna{
     width: 300px;
     height: auto;
-    margin-left: 600px;
-    padding-bottom: 20px;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid purple;
 }
 .pizza{
     width: 300px;
-    height: 300px;
-    margin-left: 640px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid purple;
+}
+
+.first-link{
+    width: 400px;
+    margin: 0 auto;
+    color: purple;
+}
+.second-link{
+    width: 400px;
+    margin: 0 auto;
+    color: purple;
 }
